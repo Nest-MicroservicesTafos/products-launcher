@@ -9,7 +9,7 @@ services:
      - "8222:8222"
 
 ## Build y busca el archivo dockerfile para general y levantar    
-  cliente-gateway:
+  client-gateway:
     build: ./client-gateway
     ports:
      - ${CLIENT_GATEWAY_PORT}:3000
