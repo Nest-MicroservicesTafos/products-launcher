@@ -1,7 +1,8 @@
 ## Dev
 
-1. Clonar el repositorios
+1. Clonar el repositorios `git clone https://github.com/Nest-MicroservicesTafos/products-launcher.git`
 2. Crear un .env basado en el env.template
+3. Ejecutar el comando `git submodule --init --recursive` para reconstruir los submodulos
 3. Ejecutar el comando `docker compose up --build`
 
 ### Pasos para crear los Git Submodules
